@@ -1,0 +1,149 @@
+.header{
+	position: sticky;
+	top: 0px;
+}
+
+ul{
+    list-style-type: none;
+	margin: -24px -8px 15px -8px;
+	padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+    text-align:center;
+}
+
+li{
+	float: left;
+	text-align:center;
+	font-family:candara;
+}
+
+li a, .dropbtn {
+	display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size:17px;
+    font-family:candara;
+}
+
+li .a-link:hover, .dropdown:hover .dropbtn {
+	background-color: red;
+	transition: 0.40s;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin:1px 20px 5px 20px;
+}
+
+.dropdown-content .a-link {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size:16px; 
+}
+
+.dropdown-content .a-link:hover {background-color:rgba(79, 10, 136, 0.7);}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+#firstlist
+{
+	color:orange; 
+	padding: 12px 16px;
+    display: block;
+    text-align: left;
+    font-size:17px; 
+}
+.p-cls{
+	font-family:vivaldi;
+	font-size:155%;    
+  font-weight: 900;
+  color: white;
+	}
+	
+.p-cls2{
+	font-family:sans-serif;
+	font-size:136%;
+	font-style: italic;
+	margin-bottom: -60px;
+	margin-top: 17px;
+	}
+	
+.li-cls{
+	font-size:155%;
+  font-family:Courgette;
+  color: white;
+}
+	
+.img-cls{
+	width:100%;
+	height:50%;
+	}
+	
+/*.container{background-image:url('img/1234.jpg');background-size:100% 110%;width:100%;height:85vh;}*/
+
+/*.h1-cls
+{
+	font-family:century gothic;
+	font-size:250%;
+	font-weight:100;
+	text-decoration:underline;
+	text-decoration:oblique;
+	color: #ff5615eb;
+	padding-left: 14%;
+    padding-top: 90px;
+	padding-bottom:10px;
+	z-index:1;
+}*/
+
+.image{
+	padding-left:32%;
+	width: 35%;
+	height: 35%;
+	padding-bottom:10px;
+	transition: 1.5s;
+	text-align:center;
+}
+
+.image:hover{
+	width: 45%;
+	height: 45%;
+	padding-left: 25%;
+	transition: 1.5s;
+}
+
+.web-cls{
+	font-family: Orbitron;
+    font-size:5em;
+	/*font-style: italic;*/
+	margin-bottom: -60px;
+	margin-top: 37px;
+	padding-left: 40px;
+	color: #e6632f;
+    text-shadow: 4px 4px 4px #89ff00;
+}
+
+.footer{
+	background:#fff;
+	margin-left: -50px;
+	margin-right: -8px;
+}
+
+footer{
+	line-height: 10px;
+	padding: 10px 0px 10px 0px;
+}
